@@ -1,6 +1,7 @@
 import pyautogui
 import time
 
+
 # Coordinates of pixel to monitor
 x = 100  # TODO: replace with actual x coordinate
 y = 100  # TODO: replace with actual y coordinate

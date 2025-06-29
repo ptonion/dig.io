@@ -2,11 +2,17 @@ import pyautogui
 from PIL import Image
 import time
 
+
+# print("Move mouse to the top-left of the progress bar...")
+# time.sleep(5)
+# print("Mouse position:", pyautogui.position())
+
+
 # Region of the screen to monitor
-region_x = 100  # TODO: replace with actual x coordinate
-region_y = 200  # TODO: replace with actual y coordinate
-region_width = 200  # width of region in pixels
-region_height = 1    # height of region in pixels
+region_x = 1212
+region_y = 834
+region_width = 458
+region_height = 1
 
 # RGB color when the region is idle
 IDLE_COLOR = (205, 185, 150)
