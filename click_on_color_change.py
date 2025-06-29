@@ -1,6 +1,10 @@
 import pyautogui
 import time
 
+print("Move mouse to the top-left of the progress bar...")
+time.sleep(5)
+print("Mouse position:", pyautogui.position())
+
 # Coordinates of pixel to monitor
 x = 100  # TODO: replace with actual x coordinate
 y = 100  # TODO: replace with actual y coordinate
