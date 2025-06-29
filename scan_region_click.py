@@ -2,6 +2,7 @@ import pyautogui
 from PIL import Image
 import time
 
+
 # print("Move mouse to the top-left of the progress bar...")
 # time.sleep(5)
 # print("Mouse position:", pyautogui.position())
